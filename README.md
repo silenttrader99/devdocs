@@ -1,6 +1,6 @@
 # DevDocs
 
-_devdocs_ is a high-functionality editor designed for writing code or articles using a markdown text editor. This tool allows developers to write, preview, and save code directly on their local machine, ensuring a seamless and efficient development experience. nestjsnote can be installed through [npm](https://www.npmjs.com/package/devdocs), and it offers a variety of advanced features, detailed below.
+_devdocs_ is a high-functionality editor designed for writing code or articles using a markdown text editor. This tool allows developers to write, preview, and save code directly on their local machine, ensuring a seamless and efficient development experience. nestjsnote can be installed through [npm](https://www.npmjs.com/package/devdocs99), and it offers a variety of advanced features, detailed below.
 
 ## Features
 
@@ -22,20 +22,10 @@ DevDocs is built with the following tools to deliver a powerful, scalable, and u
 - [Unpkg](https://unpkg.com/) : CDN for frontend packages.
 - Styles powered by [Tailwind CSS](https://tailwindcss.com/) : Modern CSS framework.
 
-## Documentation
-
-### Installation and Setup
-
-**Install with npm**:
+## Installation and Setup
 
 ```bash
-npx devdocs serve [options]
-```
-
-**For installed version**:
-
-```bash
-devdocs serve
+npx devdocs99 serve [options]
 ```
 
 - Options : `-p` or `--port` to specify custom port, and `[filename]` to specify the file name.
@@ -44,8 +34,11 @@ devdocs serve
 ## Code editor features
 
 - **React Component Integration**: Use React to build interactive components directly within the editor, with real-time rendering in the preview pane.
+  ![image_alt](https://github.com/silenttrader99/devdocs/blob/7cdb6b73c92387e4b0f94b05796174d24e63260a/screenshot-1.jpg)
 - **`show()` Functionality**: Display any data type in the preview window. Variables, functions, and React components can share values across code cells.
+  ![image_alt](https://github.com/silenttrader99/devdocs/blob/7cdb6b73c92387e4b0f94b05796174d24e63260a/screenshot-2.jpg)
 - **NPM Package Support**: Import any npm package on-the-fly (e.g., `import axios from 'axios'`).
+  ![image_alt](https://github.com/silenttrader99/devdocs/blob/7cdb6b73c92387e4b0f94b05796174d24e63260a/screenshot-3.jpg)
 
 ## Text editor features
 
